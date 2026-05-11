@@ -81,7 +81,7 @@ By default, newly registered users have the `user` role. To promote a user to `a
 
 ## 🌍 Features
 
-- **Fracture Classification:** Upload radiographs to identify Weber A, B, C, Bimalleolar, Trimalleolar, etc.
+- **Fracture Classification:** Upload radiographs to classify **Weber A, Weber B, or Weber C** (three-class model).
 - **Diagnostic History:** Secure storage of analysis results for each user.
 - **Admin Dashboard:** Full CRUD for user management and data cleanup.
 - **Multi-language UI:** Support for English, French, and Arabic (with RTL support).
