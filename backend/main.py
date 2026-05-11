@@ -10,13 +10,14 @@ from typing import List
 
 import models_db, schemas, auth
 from database import engine, get_db
+from labels import FRACTURE_CLASSES
 from model import FractureModel
 from utils import transform_image
 
 # Création des tables dans la base de données
 models_db.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="OrthoVision API - Malleolar Fracture Classification")
+app = FastAPI(title="OrthoVision API - Weber A/B/C classification")
 
 app.add_middleware(
     CORSMiddleware,
@@ -30,7 +31,7 @@ app.add_middleware(
 model = FractureModel()
 model.eval()
 
-CLASSES = ["Weber A", "Weber B", "Weber C", "Bimalleolar", "Trimalleolar", "Maisonneuve", "Osteochondral"]
+CLASSES = list(FRACTURE_CLASSES)
 
 # ================= AUTH ROUTES =================
 

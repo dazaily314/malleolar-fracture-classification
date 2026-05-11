@@ -38,12 +38,12 @@ export const translations = {
     no_history: "No analysis history yet.",
     footer_text: "© 2026 OrthoVision - Malleolar Fracture Classification",
     hero_title: "Automated Malleolar Fracture Classification",
-    hero_subtitle: "Upload an ankle X-ray and our deep learning model will instantly identify the fracture type among 7 clinical categories with high precision.",
+    hero_subtitle: "Upload an ankle X-ray and our model classifies the Weber type (A, B, or C) to support clinical assessment.",
     get_started: "Get Started",
     learn_more: "Learn More",
     feature_secure: "Secure & Private",
     feature_instant: "Instant Analysis",
-    feature_classes: "7 Clinical Classes"
+    feature_classes: "3 Weber classes (A, B, C)"
   },
   fr: {
     app_title: "OrthoVision",
@@ -82,12 +82,12 @@ export const translations = {
     no_history: "Aucun historique d'analyse pour le moment.",
     footer_text: "© 2026 OrthoVision - Classification des fractures malléolaires",
     hero_title: "Classification Automatisée des Fractures Malléolaires",
-    hero_subtitle: "Uploadez une radiographie de la cheville et notre modèle identifiera instantanément le type de fracture parmi 7 catégories cliniques.",
+    hero_subtitle: "Uploadez une radiographie de la cheville : le modèle distingue le type de fracture Weber A, B ou C.",
     get_started: "Commencer",
     learn_more: "En savoir plus",
     feature_secure: "Sécurisé & Privé",
     feature_instant: "Analyse Instantanée",
-    feature_classes: "7 Classes Cliniques"
+    feature_classes: "3 classes Weber (A, B, C)"
   },
   ar: {
     app_title: "أورثو فيجن",
@@ -126,11 +126,11 @@ export const translations = {
     no_history: "لا يوجد سجل تحليلات بعد.",
     footer_text: "© 2026 أورثو فيجن - تصنيف كسور الكاحل",
     hero_title: "تصنيف كسور الكاحل المؤتمت",
-    hero_subtitle: "قم بتحميل صورة أشعة للكاحل وسيقوم نموذجنا بتحديد نوع الكسر فوراً من بين 7 فئات سريرية بدقة عالية.",
+    hero_subtitle: "حمّل أشعة الكاحل ليصنّف النموذج نوع ويبر (A أو B أو C) لدعم التقييم السريري.",
     get_started: "ابدأ الآن",
     learn_more: "تعلم المزيد",
     feature_secure: "آمن وخاص",
     feature_instant: "تحليل فوري",
-    feature_classes: "7 فئات سريرية"
+    feature_classes: "3 فئات ويبر (A، B، C)"
   }
 };
